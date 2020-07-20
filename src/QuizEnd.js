@@ -4,8 +4,6 @@ class QuizEnd extends Component {
 
   handleResetClick() {
     this.props.resetClickHandler()
-
-    this.setState({quiz_position: 1})
   }
 
   render() {
